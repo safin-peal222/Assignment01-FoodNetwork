@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 70%;
+  padding-top: 10px;
+}
+.half-width {
+  padding-left: 40px;
+  padding-right: 40px;
+}
