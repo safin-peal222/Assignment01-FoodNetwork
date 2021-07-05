@@ -1,17 +1,93 @@
 body {
   margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 section {
+  margin-bottom: 150px;
+}
+h1 {
+  color: gray;
+}
+.alignment p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.alignment {
+  margin-top: 50px;
+}
+.flexible-container {
   display: flex;
 }
 .half-width {
   width: 50%;
+  color: gray;
 }
-.half-width img {
-  width: 70%;
+.half-width .img-1 {
+  width: 90%;
   padding-top: 10px;
 }
 .half-width {
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 50px;
+}
+.half-width .img-2 {
+  width: 40%;
+  padding-top: 100px;
+  padding-left: 190px;
+}
+.orange {
+  color: orange;
+}
+.linked-button {
+  background-image: linear-gradient(to right, orange, tomato);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid tomato;
+  box-shadow: 5px 3px 20px orange;
+  color: white;
+  font-weight: 700;
+}
+.align {
+  margin-top: 100px;
+}
+#about {
+  background-image: url(./img/7.png);
+  background-repeat: no-repeat;
+}
+.recipie {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+.flex-item {
+  width: 25%;
+  border: 10px solid white;
+
+  margin: 20px;
+  padding: 5px;
+  box-shadow: 5px 10px 30px gray;
+  border-radius: 20px;
+}
+.flex-item img {
+  width: 100%;
+  text-align: center;
+}
+.justify {
+  justify-content: center;
+}
+.social {
+  width: 30%;
+}
+.shadow {
+  box-shadow: 10px 10px 30px gray;
+  margin: 0px 50px 0px 50px;
+  padding: 30px 60px;
+}
+.bottom {
+  height: 100px;
+  background-color: black;
+  padding: 50px;
+  margin-top: 50px;
+  color: white;
 }
