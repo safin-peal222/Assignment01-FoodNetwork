@@ -86,11 +86,25 @@ p {
 .justify {
   justify-content: space-around;
 }
+.testimonial-box {
+  width: 500px;
+  padding: 20px;
+  margin: 15px;
+}
+.name-user strong {
+  color: black;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+}
+.name-user span {
+  color: gray;
+  font-size: 0.8rem;
+  display: block;
+}
 
 .shadow {
-  box-shadow: 10px 10px 30px gray;
   width: 80%;
-
+  box-shadow: 5px 10px 30px gray;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -102,4 +116,7 @@ p {
   padding: 50px;
   margin-top: 50px;
   color: white;
+}
+.comment p {
+  font-size: 0.9rem;
 }
